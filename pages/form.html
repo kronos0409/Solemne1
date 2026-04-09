@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Enchufados</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container custom-container">
+        
+        <header>
+            <nav>
+                <ul class="custom-nav-box">
+                    <li><a href="../index.html">Main</a></li>
+                    <li><a href="galeria.html">Gallery</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="Q&A.html">Q&A</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="us.html">About us</a></li>
+                    <li><a href="form.html">Form</a></li>
+                </ul>
+            </nav>
+            <div class="title-box">
+                <h1>Contacto e Inscripción</h1>
+            </div>
+        </header>
+
+        <main class="intro">
+            <h2>Escríbenos</h2>
+            <p>Completa el formulario para consultas de servicios o unirte a nuestro equipo.</p>
+            
+            <form action="#" method="POST" class="custom-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej: Nicolás Jara">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Motivo de contacto:</label>
+                    <select id="asunto" name="asunto">
+                        <option value="cotizacion">Cotización de Servicio</option>
+                        <option value="inscripcion">Inscripción a Cursos</option>
+                        <option value="duda">Duda Técnica / Q&A</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar Formulario</button>
+            </form>
+        </main>
+
+        <footer class="contact">
+            <h4>Contact</h4>
+            <p>©Enchufados</p>
+            <div class="social-icons">
+                <img src="../img/face.webp" alt="facebook">
+                <img src="../img/instagram_PNG10.png" alt="instagram">
+                <img src="../img/X.webp" alt="x">
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
